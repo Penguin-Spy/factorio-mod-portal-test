@@ -1,11 +1,11 @@
 {
   "name": "penguin-spy-testing-mod",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "penguin-spy-testing-mod",
   "description": "just a mod for testing uploading releases to the factorio mod portal using the new api",
   "author": "Penguin_Spy",
   "factorio_version": "1.1",
   "dependencies": [
-    "? space-exploration"
+    "~ space-exploration"
   ]
 }
