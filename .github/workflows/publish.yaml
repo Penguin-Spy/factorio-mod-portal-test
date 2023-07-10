@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@master
     - name: Publish mod
       uses: Penguin-Spy/factorio-mod-portal-publish@main
-      env:
-        FACTORIO_MOD_API_KEY: ${{ secrets.FACTORIO_MOD_API_KEY }}
+      with:
+        factorio-api-key: ${{ secrets.FACTORIO_MOD_API_KEY }}
