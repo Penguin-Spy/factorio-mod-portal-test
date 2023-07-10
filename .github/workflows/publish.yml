@@ -1,5 +1,6 @@
 on:
-  push: tags
+  push:
+    tags:
 name: Publish to the Factorio mod portal
 jobs:
   publish:
