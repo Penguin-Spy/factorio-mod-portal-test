@@ -9,6 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Publish mod
-      uses: Penguin-Spy/factorio-mod-portal-publish@main
+      uses: Penguin-Spy/factorio-mod-portal-publish@fix-git-exec
       with:
         factorio-api-key: ${{ secrets.FACTORIO_MOD_API_KEY }}
